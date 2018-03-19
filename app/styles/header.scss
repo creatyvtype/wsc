@@ -1,1 +1,8 @@
 @import "./main";
+
+:local {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+}

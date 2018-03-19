@@ -1,12 +1,8 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from "react";
+import ReactDOM from "react-dom";
 
-import Routes from 'containers/routes'
+import App from "containers/App";
 
+const app = document.getElementById("app");
 
-const app = document.getElementById('app')
-
-ReactDOM.render(
-    <Routes />,
-    app
-)
+ReactDOM.render(<App />, app);

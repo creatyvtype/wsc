@@ -1,7 +1,9 @@
-@import "./colors";
+@import "./vars";
 @import "./mixins";
 
+
 body {
-    background-color: $body-color;
-    color: $font-color;
+    background-color: $color-light-primary;
+    color: $color-dark-primary;
+    font-family: $font-body;
 }

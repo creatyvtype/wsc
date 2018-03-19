@@ -1,13 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-import styles from 'styles/header.scss'
+import styles from 'styles/Header.scss'
 
-export default class Header extends Component {
-    render() {
-        return (
-            <div className={styles.header}>
-                dis de header
-            </div>
-        )
-    }
-}
+const Header = () => (
+    <div className={styles.header}>
+        <img src="../../assets/logo.png" />
+    </div>
+);
+
+export default Header;

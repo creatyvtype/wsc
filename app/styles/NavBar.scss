@@ -1,0 +1,27 @@
+@import "./main";
+
+:local {
+    .wrapper {
+        color: $color-light-primary;
+        margin: 18px 9px;
+        text-transform: uppercase;
+        display: flex;
+        font-size: 14px;
+    }
+    .navItemsWrapper {
+        background: $color-dark-primary;
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-around;
+    }
+    .navItem {
+        padding: 9px;
+        cursor: pointer;
+    }
+    .homeWrapper {
+        margin-left: 1px;
+        display: flex;
+        composes: navItem;
+        background: $color-nav-home;
+    }
+}
