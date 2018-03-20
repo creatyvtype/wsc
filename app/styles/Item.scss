@@ -1,0 +1,134 @@
+@import "./vars";
+
+:local {
+    .itemPageWrapper {
+        display: flex;
+    }
+    .taxonomy {
+        font-size: 14px;
+        color: $color-dark-tertiary;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .currentTier {
+        color: $color-dark-primary;
+    }
+
+    .imageContainer {
+        width: 700px;
+    }
+
+
+    .mainImage {
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imageOptionWrapper {
+        margin: 36px 63px 36px;
+        display: flex;
+    }
+
+    .imageOption {
+        border: 2px solid $color-light-primary;
+        transition: border .3s ease;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        margin: 0 9px;
+        &:hover {
+            border: 2px solid $color-alert-primary;
+        }
+    }
+
+    .selectedOption {
+        border: 2px solid $color-dark-primary;
+        &:hover {
+            border: 2px solid $color-dark-primary;
+            cursor: default;
+        }
+    }
+
+    .detailsContainer {
+        margin-top: 36px;
+        margin-left: 36px;
+        flex-grow: 1;
+        font-size: 12px;
+    }
+
+    .detailTitle {
+        font-family: $font-title;
+        font-size: 18px;
+    }
+
+    .detailDescription {
+        margin-top: 9px;
+        color: $color-dark-secondary;
+    }
+
+    .detailPrice {
+        font-size: 18px;
+    }
+
+    .quantityInput {
+        margin-top: 9px;
+        padding: 9px 9px 9px 18px;
+        font-size: 16px;
+        width: 36px;
+        outline: none;
+        &:focus {
+            border: 1px solid $color-buyer-primary;
+        }
+    }
+
+    .cartButton {
+        cursor: pointer;
+        margin-top: 18px;
+    }
+
+    .moreDetailsSection {
+        margin-top: 9px;
+        border-top: 1px solid $color-dark-primary;
+        border-bottom: 1px solid $color-dark-primary;
+    }
+
+    .expandingAreaWrapper {
+        display: block;
+        border-bottom: 1px solid $color-light-secondary;
+        padding: 9px 0;
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+
+    .expandingAreaTitle {
+        text-transform: uppercase;
+        font-family: $font-title;
+        font-size: 18px;
+    }
+
+    .expandingArea {
+        max-height: 0px;
+        transition: max-height .3s ease;
+        overflow: hidden;
+        color: $color-dark-secondary;
+    }
+
+    .expanded {
+        max-height: 150px;
+        padding: 9px 9px 0 24px;
+    }
+
+    .arrow {
+        margin-right: 9px;
+        transition: transform .3s ease;
+    }
+    .arrowExpanded {
+        transform: rotate(90deg);
+    }
+}

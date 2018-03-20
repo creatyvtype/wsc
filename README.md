@@ -1,1 +1,1 @@
-# React-Redux Framework
+# Williams-Sonoma Mockup
