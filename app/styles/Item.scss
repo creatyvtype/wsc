@@ -113,14 +113,12 @@
     }
 
     .expandingArea {
-        max-height: 0px;
         transition: max-height .3s ease;
         overflow: hidden;
         color: $color-dark-secondary;
     }
 
     .expanded {
-        max-height: 150px;
         padding: 9px 9px 0 24px;
     }
 

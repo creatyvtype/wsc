@@ -17,6 +17,7 @@
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-height": "^3.0.0",
     "react-router": "^4.2.0",
     "style-loader": "^0.13.1"
   },
