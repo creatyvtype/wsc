@@ -86,9 +86,12 @@
         }
     }
 
+    .cartButtonWrapper {
+        margin-top: 18px;
+    }
+
     .cartButton {
         cursor: pointer;
-        margin-top: 18px;
     }
 
     .moreDetailsSection {
@@ -128,5 +131,27 @@
     }
     .arrowExpanded {
         transform: rotate(90deg);
+    }
+
+    .successModalTitle {
+        font-family: $font-title;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+    .successModalBody {
+        margin-bottom: 18px;
+    }
+    .successCloseButton {
+        margin-top: 36px;
+        width: 100%;
+        padding: 9px;
+        font-family: $font-body;
+        font-size: 16px;
+        border: none;
+        background-color: $color-alert-primary;
+        cursor: pointer;
+        color: $color-light-primary;
+        text-transform: uppercase;
     }
 }
